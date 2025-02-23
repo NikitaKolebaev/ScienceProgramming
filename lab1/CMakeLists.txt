@@ -4,6 +4,7 @@ set(CMAKE_CXX_FLAGS "-std=c++11 -g")
 
 project(gmshdemo)
 add_executable(thor_mesh thor_mesh.cpp)
+add_executable(figure figure.cpp)
 
 # --- Подключаем gmsh, тут придется перебирать варианты 
 
@@ -27,3 +28,4 @@ set(GMSH_LIBRARIES gmsh)
 
 # Укажем библиотеки для линковки
 target_link_libraries(thor_mesh ${GMSH_LIBRARIES})
+target_link_libraries(figure ${GMSH_LIBRARIES})
