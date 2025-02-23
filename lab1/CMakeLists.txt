@@ -3,10 +3,7 @@ cmake_minimum_required(VERSION 3.11)
 set(CMAKE_CXX_FLAGS "-std=c++11 -g")
 
 project(gmshdemo)
-add_executable(sample01 sample01.cpp)
-add_executable(sample02 sample02.cpp)
-add_executable(sample03 sample03.cpp)
-add_executable(sample04 sample04.cpp)
+add_executable(thor_mesh thor_mesh.cpp)
 
 # --- Подключаем gmsh, тут придется перебирать варианты 
 
@@ -29,7 +26,4 @@ set(GMSH_LIBRARIES gmsh)
 # --- Закончили с gmsh, остальное править не обязательно (не поможет)
 
 # Укажем библиотеки для линковки
-target_link_libraries(sample01 ${GMSH_LIBRARIES})
-target_link_libraries(sample02 ${GMSH_LIBRARIES})
-target_link_libraries(sample03 ${GMSH_LIBRARIES})
-target_link_libraries(sample04 ${GMSH_LIBRARIES})
+target_link_libraries(thor_mesh ${GMSH_LIBRARIES})
