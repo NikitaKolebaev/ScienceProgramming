@@ -8,3 +8,11 @@
   <br>
   <em>Результат моделирования</em>
 </p>
+
+### Задание №2. Построение сетки для модели цветочного горшка в виде кошки
+
+<p align="center">
+  <img src="https://github.com/NikitaKolebaev/ScienceProgramming/blob/main/lab1/figure.png">
+  <br>
+  <em>Результат моделирования</em>
+</p>
