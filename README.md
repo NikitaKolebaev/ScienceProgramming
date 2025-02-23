@@ -4,7 +4,7 @@
 ### Задание №1. Построение сетки для модели тора с полостью
 
 <p align="center">
-  <img src="https://i.ytimg.com/vi/nLp_I8ktWKY/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBO8HUqJ5wY3LJRwCXbi1ZuhyUpBQ" alt="Example of car tracks construction">
+  <img src="https://github.com/NikitaKolebaev/ScienceProgramming/blob/main/lab1/Mesh_for_thor.png">
   <br>
   <em>Результат моделирования</em>
 </p>
